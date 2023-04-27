@@ -1,6 +1,9 @@
 """
 模拟requests的timeout参数，使任意函数都拥有超时跳出的功能，防止访问超时阻塞影响代码的运行
 """
+import functools
+import signal
+
 
 def with_timeout(timeout):
     """
