@@ -15,7 +15,7 @@ setup(
     author_email='snjyor@163.com',
     url='https://github.com/snjyor/with_timeout',
     install_requires=[
-        'beautifulsoup4'
+        'functools', 'signal'
     ],
     license='MIT',
     long_description=readme_data,
